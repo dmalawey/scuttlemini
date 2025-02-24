@@ -1,4 +1,4 @@
-# Designs
+# Design
 _The designs as of 2025 are working designs.  Working docs are for distributing robot modules between collaborators, but the designs may be pre-prototype and untested._
 
 # Intentions
