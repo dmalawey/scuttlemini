@@ -2,3 +2,4 @@
 - [home](home)
 - [targets](goals)
 - [docs](docs)
+- [design](design)
