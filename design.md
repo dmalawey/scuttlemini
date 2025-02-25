@@ -44,3 +44,27 @@ Special notes for printed parts
 
 ### Unique parts
 Discussion of parts that differ from a downscaled version of SCUTTLE Original design.
+
+## BOM
+Parts list
+
+_Suggested materials copied from BOM spreadsheet, updated 2025.02.24_
+
+| Item         | Product                                                                                                                |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------- |
+| Extrusion    | [10pcs 1m amazon](https://www.amazon.com/Aluminum-Extrusion-European-Standard-Anodized/dp/B08PQPK379)                  |
+| Wheels       | skate wheels 70mm, Amazon                                                                                              |
+| Motor Driver | [4pcs L298N Amazon](https://www.amazon.com/HiLetgo-Controller-Stepper-H-Bridge-Mega2560/dp/B07BK1QL5T)                 |
+| Encoders     | [AS5600 10-bit Encoder, Amazon](https://www.amazon.com/Magnetic-Encoder-Induction-Measurement-Precision/dp/B097QNG1CN) |
+| Motors       | [10pcs gearmotor 113RPM Amazon](https://www.amazon.com/DC-Gear-Motor-Planetary-Industrial/dp/B07XMFLSPB)               |
+| Connectors   | [75pcs lever wire connectors](https://www.amazon.com/dp/B08HXXWLT8)                                                    |
+| Camera       | [arducam 5mp](https://www.amazon.com/Arducam-Megapixels-Sensor-OV5647-Raspberry/dp/B012V1HEP4)                         |
+| Battery      | [LiPo 4pack Amazon](https://www.amazon.com/Tattu-Packs-450mAh-7-4V-Battery/dp/B07K18DJG5)                              |
+| Fasteners    | [M5 drop in nuts](https://www.amazon.com/Fastener-Nickel-Plated-Sliding-Aluminum-Profile/dp/B086MKNYDS)                |
+| DIN rail     | [10pcs 1m amazon](https://www.amazon.com/Aluminum-Professionals-Hardware-Components-Mounting/dp/B088FFHCDC)            |
+| Corners      | [20sets M5 corner brkt](https://www.amazon.com/Aluminum-Profile-Connector-Bracket-Accessories/dp/B0855V2JV3)           |
+| casters      | [50pcs blue caster amazon](https://www.amazon.com/dp/B07D2GWL2T)                                                       |
+| belts        | [timing belt GT2, 10pcs, amazon](https://www.amazon.com/3Dman-Timing-Closed-Rubber-Printer/dp/B07V6N32B1)              |
+| pulley       | [aluminum pulley GT2x16, amazon](https://www.amazon.com/Saiper-Aluminum-Synchronous-Compatible-Printer/dp/B07M9FT3H1)  |
+| 3D Parts     | Filament, 1kg, amazon                                                                                                  |
+| CPU          | [ESP8266, amazon](https://www.amazon.com/HiLetgo-Internet-Development-Wireless-Micropython/dp/B081CSJV2V)              |
