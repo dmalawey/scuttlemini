@@ -1,7 +1,7 @@
 ## SCUTTLE Mini
 A temporary repository for the year 2025 for collaborating and advancing the scuttle mini project from concept to prototype.
 
-![cover image with proposed parts](img/img_scuttlemini01.jpg)
+![banner image for scuttle mini](img/img_banner.jpg)
 
 
 ## Contents
@@ -15,3 +15,5 @@ Designs are to include:
 * Power system (computations of power inputs and loads)
 * Functional modules (configuration of assembled modules such as wheel with motor, bearings, bracket, and test results)
 * Issues (documented issues that are measured and expected to require engineering).
+
+![cover image with proposed parts](img/img_scuttlemini01.jpg)
