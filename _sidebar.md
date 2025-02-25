@@ -1,4 +1,4 @@
 - [home](home)
 - [targets](goals)
-- [docs](docs)
+- [team](team)
 - [design](design)
