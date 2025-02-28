@@ -17,3 +17,14 @@ Our goals align with SCUTTLE's objective to create a 10kg load SCUTTLE Mini vers
 Please let us know how we can get involved and contribute to the project's success. We are looking forward to the possibility of collaborating with the SCUTTLE community.
 >
 > 
+
+![image](https://github.com/user-attachments/assets/23486c28-fa74-4e0e-ab92-04fb472e145d)
+![image](https://github.com/user-attachments/assets/ba596044-bf2f-4df3-a9e7-f7cbcedc5b7c)
+
+
+* **Straight Path (3 meters):** The robot must travel 3 meters straight, detecting and following the black line using IR sensors.
+* **Ramp Ascent (30-degree):** The robot will ascend a 1-meter ramp, transitioning from a flat surface to an incline. The IR sensors will ensure the robot stays on course during the ascent.
+* **Turn:** After the ramp, the robot will perform a sharp-turn, maintaining path adherence via the IR sensors.
+* **Ramp Descent (30-degree):** The robot will navigate a 1-meter ramp, transitioning from a flat surface to a downward slope.
+* **Obstacle Avoidance:** At the halfway point along the straight path (after the ramp), an obstacle will be placed to test the robot's ability to detect and avoid the object using the HC-SR04P ultrasonic sensors. Positioned to detect obstacles at a 15 cm threshold. The robot will autonomously change its path to avoid obstacles while ensuring the container remains upright.
+
