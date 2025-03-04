@@ -17,3 +17,11 @@ Designs are to include:
 * Issues (documented issues that are measured and expected to require engineering).
 
 ![cover image with proposed parts](img/img_scuttlemini01.jpg)
+
+## Overview
+
+The suggested design for our first builders, is to carryover all useful components from standard scuttle.   For a smaller chassis, 20mm extrusion is a great solution, and the recommended sizes are shown below with the mini and the "mega"
+
+![chassis sizes image](img/img_chassis1.jpg)
+
+For wheels, we recommend those from inline skates for durability and matching wheel bearings to the original design.  They are available around the world, affordable, and standard.  Design any pulley that you wish and bond it with CA glue to the urethane portion of the wheel.  (it's not recommended to attempt fasteners, and modeling fine details into the wheel-facing pulley side.)
