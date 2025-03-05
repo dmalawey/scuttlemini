@@ -18,7 +18,7 @@ Please let us know how we can get involved and contribute to the project's succe
 >
 > 
 
-![image](https://github.com/user-attachments/assets/23486c28-fa74-4e0e-ab92-04fb472e145d)
+![image](https://github.com/user-attachments/assets/e183ad0a-6fa4-44ac-ab6a-77fcfa4f32dc)
 ![image](https://github.com/user-attachments/assets/ba596044-bf2f-4df3-a9e7-f7cbcedc5b7c)
 
 
