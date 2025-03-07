@@ -74,5 +74,7 @@ _Suggested materials copied from BOM spreadsheet, updated 2025.02.24_
 Recommended wheels are sourced from inline-skate type wheels.  
 * Example parts on amazon: [skate wheels](https://www.amazon.com/dp/B08CT98HFB)
 * Diameter is 80mm, one of the most common standards.  This is about 3/4 diameter of original scuttle
-
-![skate wheel products](img/img_skateWheel.jpg)
+* Clean CAD model on grabCAD: [grabcad skate wheel](https://grabcad.com/library/skatewheel-1)
+  
+- ![skate wheel products](img/img_skateWheel.jpg)
+- ![skate wheel CAD model](img/img_skateWheel2.jpg)
