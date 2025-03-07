@@ -68,3 +68,11 @@ _Suggested materials copied from BOM spreadsheet, updated 2025.02.24_
 | pulley       | [aluminum pulley GT2x16, amazon](https://www.amazon.com/Saiper-Aluminum-Synchronous-Compatible-Printer/dp/B07M9FT3H1)  |
 | 3D Parts     | Filament, 1kg, amazon                                                                                                  |
 | CPU          | [ESP8266, amazon](https://www.amazon.com/HiLetgo-Internet-Development-Wireless-Micropython/dp/B081CSJV2V)              |
+
+### Wheels
+
+Recommended wheels are sourced from inline-skate type wheels.  
+* Example parts on amazon: [skate wheels](https://www.amazon.com/dp/B08CT98HFB)
+* Diameter is 80mm, one of the most common standards.  This is about 3/4 diameter of original scuttle
+
+![skate wheel products](img/img_skateWheel.jpg)
