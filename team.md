@@ -18,6 +18,7 @@ Please let us know how we can get involved and contribute to the project's succe
 >
 > 
 
+**The Challenge**
 ![image](https://github.com/user-attachments/assets/e183ad0a-6fa4-44ac-ab6a-77fcfa4f32dc)
 ![image](https://github.com/user-attachments/assets/ba596044-bf2f-4df3-a9e7-f7cbcedc5b7c)
 
@@ -28,6 +29,8 @@ Please let us know how we can get involved and contribute to the project's succe
 * **Ramp Descent (30-degree):** The robot will navigate a 1-meter ramp, transitioning from a flat surface to a downward slope.
 * **Obstacle Avoidance:** At the halfway point along the straight path (after the ramp), an obstacle will be placed to test the robot's ability to detect and avoid the object using the HC-SR04P ultrasonic sensors. Positioned to detect obstacles at a 15 cm threshold. The robot will autonomously change its path to avoid obstacles while ensuring the container remains upright.
 
+
+## Ben10 in The Making!
 > **Progress**
 
 1. Frame (2020): Widht - 160mm, Lenght - 200mm, Height - 20mm\
