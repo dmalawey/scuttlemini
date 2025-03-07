@@ -28,3 +28,11 @@ Please let us know how we can get involved and contribute to the project's succe
 * **Ramp Descent (30-degree):** The robot will navigate a 1-meter ramp, transitioning from a flat surface to a downward slope.
 * **Obstacle Avoidance:** At the halfway point along the straight path (after the ramp), an obstacle will be placed to test the robot's ability to detect and avoid the object using the HC-SR04P ultrasonic sensors. Positioned to detect obstacles at a 15 cm threshold. The robot will autonomously change its path to avoid obstacles while ensuring the container remains upright.
 
+> **Progress**
+
+1. Frame (2020): Widht - 160mm, Lenght - 200mm, Height - 20mm\
+2. Redesign the Bracket from SCUTTLE drivetrain system from version 3.0 robot (extrussion 3030) to fit with SCUTTLE Mini (Extrussion 2020)\
+![WhatsApp Image 2025-03-07 at 02 12 17_741f409d](https://github.com/user-attachments/assets/12f1cdc7-7353-4467-a8b5-14ebdfaf27b5)
+![WhatsApp Image 2025-03-07 at 02 12 17_3046bac4](https://github.com/user-attachments/assets/07e0d67a-9078-429f-88a6-bf0de6aa4962)
+![WhatsApp Image 2025-03-07 at 02 12 18_bb8bde76](https://github.com/user-attachments/assets/8b97f24b-ea0d-44a5-ada5-d5642869b701)
+
