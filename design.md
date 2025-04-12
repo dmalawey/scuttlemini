@@ -36,14 +36,28 @@ _Descriptions for parts, construction, key tolerances, assembly, and design inte
 ### Frame
 The aluminum rectangular frame, and DIN rail mounting configuration.
 
+* Material : Aluminum extrusion (2020 profile, Width: 160mm, Length: 200mm, Height: 20mm).
+  * Lightweight yet strong, suitable for a 10kg payload.
+  * Compatible with DIN rail mounting for easy assembly of submodules. (in progress)
+
 ### Wheel Assembly
 Design for wheel module with wheel, bearings, shaft, pulley, motor, and belt as needed.
 
+* Wheels : Inline skate wheels (80mm diameter).
+  * Provide excellent grip and smooth movement.
+* Bearings : Standard 608ZZ bearings for durability and ease of replacement.
+* Motors : DC motors
+  * 
+* Belts and Pulleys :
+  * 
 ### Prints
 Special notes for printed parts
 
 ### Unique parts
 Discussion of parts that differ from a downscaled version of SCUTTLE Original design.
+
+* Redesigned Brackets : Adapted from SCUTTLE 3030 to fit the smaller 2020 extrusion. (but still can be improve)
+* Solar Panel Mount : Custom-designed to integrate solar charging capabilities.
 
 ## BOM
 Parts list
