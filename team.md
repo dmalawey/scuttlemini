@@ -33,9 +33,49 @@ Please let us know how we can get involved and contribute to the project's succe
 ## Ben10 in The Making!
 > **Progress**
 
-1. Frame (2020): Widht - 160mm, Lenght - 200mm, Height - 20mm\
-2. Redesign the Bracket from SCUTTLE drivetrain system from version 3.0 robot (extrussion 3030) to fit with SCUTTLE Mini (Extrussion 2020)\
+1. Frame (2020):
+* Widht - 160mm, Lenght - 200mm, Height - 20mm\
+![WhatsApp Image 2025-03-06 at 12 28 12_54d2e751](https://github.com/user-attachments/assets/8a433e03-082a-4091-a33d-c3594a6976b0)
+3. Redesign of Bracket:
+* SCUTTLE drivetrain system from version 3.0 robot (extrussion 3030) to fit with SCUTTLE Mini (Extrussion 2020)\
 ![WhatsApp Image 2025-03-07 at 02 12 17_741f409d](https://github.com/user-attachments/assets/12f1cdc7-7353-4467-a8b5-14ebdfaf27b5)
 ![WhatsApp Image 2025-03-07 at 02 12 17_3046bac4](https://github.com/user-attachments/assets/07e0d67a-9078-429f-88a6-bf0de6aa4962)
-![WhatsApp Image 2025-03-07 at 02 12 18_bb8bde76](https://github.com/user-attachments/assets/8b97f24b-ea0d-44a5-ada5-d5642869b701)
+4. Motor Integration:
+* Four DC brushed motors (32GP-31ZY) with a rated torque of 20 kg·cm each were integrated into the system.
+![WhatsApp Image 2025-04-13 at 05 59 24_b0375319](https://github.com/user-attachments/assets/aef2e7f3-fd2e-44ee-a83c-d587f52a0ef3)
+5. Wheel Assembly:
+* Rubber wheels (65mm diameter) were initially used but proved less precise during obstacle avoidance. (Loose back right tyre when turning).
+* Future upgrades include switching to inline skate wheels (80mm) for improved stability, ground clearance, and precision during navigation.
+![WhatsApp Image 2025-04-13 at 06 00 37_0178f7b0](https://github.com/user-attachments/assets/3059517d-da07-4dc4-823d-0ca82a4a914e)
+6. Sensor System: 
+* Three IR sensors are installed for line-following navigation, ensuring accurate detection of black lines on white surfaces.
+* An HC-SR04 ultrasonic sensor is mounted for obstacle detection within a 15 cm range.
+* Challenges with high-mounted obstacle sensors have been noted, and adjustments are planned to improve detection of low-profile obstacles.
+![WhatsApp Image 2025-04-13 at 05 59 24_bd26e732](https://github.com/user-attachments/assets/60cb1737-04c0-48bc-b574-ba9d5c650324)
+7. Power System:
+* A 12V 3000mAh LiPo battery powers the system, providing an estimated runtime of 20 minutes under full load .
+* A PWM solar charge controller manages energy input from a 12V solar panel.
+![WhatsApp Image 2025-04-13 at 06 08 19_c811c669](https://github.com/user-attachments/assets/bf3fc5cc-54e6-4adf-9909-d9cca90547a3)
+8. Software and Online Monitoring:
+* The ESP32 microcontroller handles sensor data processing and motor control.
+* Arduino Cloud is used for real-time monitoring of parameters such as speed, battery percentage, solar charging rate, and obstacle distance.
+* Raspberry Pi 5 processes live video streams and captures images at checkpoints, uploading them to Google Drive for easy access.
+![image](https://github.com/user-attachments/assets/074d29a6-4065-4282-ad5d-727482638f3b)
+
+> **Circuit Diagram for Power Distribution**
+![image](https://github.com/user-attachments/assets/879e07df-063e-479a-a3b8-9cb31f8b41f8)
+
+> **Circuit Diagram for Autonomous Navigation**
+![image](https://github.com/user-attachments/assets/aef6cf74-2227-4ffb-b10f-fd6bee6ff351)
+
+**Sensor Logic and Action Responses for Autonomous Navigationn**
+| Condition          | Sensor Logic (SL, SR, SVR) | Action               | Speed (L, R) | Notes                                |
+|--------------------|----------------------------|----------------------|--------------|--------------------------------------|
+| All black          | (1, 1, 1)                  | Stop                 | (0, 0)       | End                                  |
+| All white          | (0, 0, 0)                  | forward              | (200, 200)   | Follows the path                     |
+| Left detected      | (1, 0, 0)                  | right                | (30, 200)    | Left sensor detects black            |
+| Right detected     | (0, 1, 0)                  | left                 | (200, 30)    | Right sensor detects black           |
+| Junction detected  | (0, 1, 1)                  | left                 | (130, 0)     | Stops and turns left                 |
+| Obstacle detected  | Distance < 10cm            | Stop, reverse, avoid | Various      | Calls avoidance function             |
+
 
