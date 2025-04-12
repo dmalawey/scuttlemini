@@ -68,7 +68,7 @@ Please let us know how we can get involved and contribute to the project's succe
 > **Circuit Diagram for Autonomous Navigation**
 ![image](https://github.com/user-attachments/assets/aef6cf74-2227-4ffb-b10f-fd6bee6ff351)
 
-**Sensor Logic and Action Responses for Autonomous Navigationn**
+> **Sensor Logic and Action Responses for Autonomous Navigationn**
 | Condition          | Sensor Logic (SL, SR, SVR) | Action               | Speed (L, R) | Notes                                |
 |--------------------|----------------------------|----------------------|--------------|--------------------------------------|
 | All black          | (1, 1, 1)                  | Stop                 | (0, 0)       | End                                  |
