@@ -1,2 +1,2 @@
-- [github](https://github.com/dmalawey/scuttlemini)
-- [scuttle Home](https://scuttlerobot.org)
+- [Github](https://github.com/dmalawey/scuttlemini)
+- [SCUTTLE Home](https://scuttlerobot.org)
