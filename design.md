@@ -62,6 +62,10 @@ We are aiming for one special printing challenge, and that's a fine-pitch wheel 
 * challenge no.1 is to design the simplest parametric pulley for the wheel.  We need the tooth count and diameter to match, based on user inputs.
   *  A draft [pulley design](https://grabcad.com/library/pulley_gt2-1) by DM is posted for initial trials (but it's not parametric)
   *  A parametric [pulley design here](https://grabcad.com/library/gt2-parametric-pulley-sw21-1) might be suitable for borrowing equations.
+  *  
+
+_image below shows change from original, large 5.0mm pitch to 2mm pitch belt selection_
+ - ![image of pulley plans](img/img_pulley1.jpg)
 
 ### Unique parts
 Discussion of parts that differ from a downscaled version of SCUTTLE Original design.
