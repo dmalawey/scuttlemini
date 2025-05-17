@@ -47,11 +47,21 @@ Design for wheel module with wheel, bearings, shaft, pulley, motor, and belt as 
   * Provide excellent grip and smooth movement.
 * Bearings : Standard 608ZZ bearings for durability and ease of replacement.
 * Motors : DC motors
-  * 
+  * intended: to use original SCUTTLE 12v gearmotor, near 5 watts peak (each)
+  * rated at 200 or 300 rpm, from original scuttle (for easy kinematics)
+  * shaft is d-shaped with aluminum pulley, OTS
+  * variations of motor available with shorter body, for clearance on chassis
 * Belts and Pulleys :
-  * 
+  * 20-tooth pulley, aluminum, for motor shaft
+  * 60-tooth pulley, printed, for wheel (adjustable)
+  * Belt will be between 200-300 teeth, with pulley spacing revisions
+    
 ### Prints
-Special notes for printed parts
+We are aiming for one special printing challenge, and that's a fine-pitch wheel pulley with GT2 tooth style.  Before 2020, average 3D printers couldn't accurately produce fine features for successful 2.0mm pulley tooth pitch.  Now, it is feasible but it just requires a bit of special attention.
+* from our discord, [Tips for Printing Pulleys](https://www.chiefdelphi.com/t/3dp-pulleys-advice-tips-successes/455441) was shared for our designers.
+* challenge no.1 is to design the simplest parametric pulley for the wheel.  We need the tooth count and diameter to match, based on user inputs.
+  *  A draft [pulley design](https://grabcad.com/library/pulley_gt2-1) by DM is posted for initial trials (but it's not parametric)
+  *  A parametric [pulley design here](https://grabcad.com/library/gt2-parametric-pulley-sw21-1) might be suitable for borrowing equations.
 
 ### Unique parts
 Discussion of parts that differ from a downscaled version of SCUTTLE Original design.
